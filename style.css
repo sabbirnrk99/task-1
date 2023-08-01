@@ -1,0 +1,124 @@
+.nav-rer{
+    margin-left: 20px;
+    color: #333;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+}
+
+.banner-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    margin: 0 20px 0 20px;
+    align-items: center;
+    height: 100%;
+    margin-top: 200px;
+    
+}
+.banner-img img{
+    width: 55%;
+    margin-left: 220px;
+    
+}
+
+
+
+.banner-heading{
+    width: 586px;
+    color: var(--gray-1, #333);
+    font-family: Space Mono;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.24px;
+    margin-bottom: 30px;
+
+}
+.banner-des{
+    color: var(--gray-2, #4F4F4F);
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+    width: 381px;
+    margin-bottom: 66px;
+    margin-top: 0;
+}
+.primary-btn{
+    width: 216px;
+    height: 68px;
+    flex-shrink: 0;
+    background: var(--gray-1, #333);
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.footer-txt{
+    text-align: center;
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 114px;
+}
+
+.username{
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width: 576px){
+
+    .banner-container{
+        display: block;
+        margin-top: 0;
+        
+    }
+      
+
+    .banner-img img{
+        width: 100%;
+        margin-left: 0;
+        
+    }
+
+    .banner-heading{
+        width: 350px;
+        color: var(--gray-1, #333);
+        font-family: Space Mono;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -1.68px;
+    
+    }
+
+    .banner-des{
+        width: 328px;
+        color: var(--gray-2, #4F4F4F);
+        font-family: Space Mono;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: -0.63px;
+    }
+  }
